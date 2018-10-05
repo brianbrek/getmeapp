@@ -1,0 +1,24 @@
+[debug] [2018-09-30T20:33:08.144Z] ----------------------------------------------------------------------
+[debug] [2018-09-30T20:33:08.146Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-30T20:33:08.146Z] CLI Version:   4.2.1
+[debug] [2018-09-30T20:33:08.146Z] Platform:      darwin
+[debug] [2018-09-30T20:33:08.146Z] Node Version:  v8.12.0
+[debug] [2018-09-30T20:33:08.146Z] Time:          Sun Sep 30 2018 17:33:08 GMT-0300 (-03)
+[debug] [2018-09-30T20:33:08.146Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-30T20:33:08.156Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-30T20:33:08.156Z] > authorizing via signed-in user
+[debug] [2018-09-30T20:33:08.158Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/getmeapp-deda5  
+ 
+[debug] [2018-09-30T20:33:09.430Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-30T20:33:09.434Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/getmeapp-deda5  
+ 
+[debug] [2018-09-30T20:33:10.657Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/brian/Desktop/test'...
+[info] 
+[debug] [2018-09-30T20:33:10.659Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/583030851047/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-30T20:33:11.915Z] <<< HTTP RESPONSE 200
+[info] i  hosting[getmeapp-deda5]: Serving hosting files from: ./
+[info] ✔  hosting[getmeapp-deda5]: Local server: http://localhost:5000
