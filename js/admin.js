@@ -6,7 +6,7 @@ firebase.initializeApp({
 
   // Initialize Cloud Firestore through Firebase
 var db = firebase.firestore();
-var arrayId = [];
+
 var tabla = document.getElementById("pedidos");
 db.collection("pedidos").onSnapshot((querySnapshot) => {
   tabla.innerHTML = "";
@@ -31,4 +31,8 @@ function eliminarItem(id){
         console.error("Error removing document: ", error);
     });
 }
+
+
+
+
 
